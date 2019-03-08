@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C3ABDF3-8680-4F44-9109-AA27E0C172D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{140ADD89-9FD6-47CA-B511-E55624F0CF6C}"
+	ProjectSection(SolutionItems) = preProject
+		E:\githubrepos\DevOps-TravisCI\docker-publish-travis.sh = E:\githubrepos\DevOps-TravisCI\docker-publish-travis.sh
+		E:\githubrepos\DevOps-TravisCI\dotnet-build.sh = E:\githubrepos\DevOps-TravisCI\dotnet-build.sh
+		E:\githubrepos\DevOps-TravisCI\dotnet-publish.sh = E:\githubrepos\DevOps-TravisCI\dotnet-publish.sh
+		E:\githubrepos\DevOps-TravisCI\dotnet-test.sh = E:\githubrepos\DevOps-TravisCI\dotnet-test.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8E369C3-B01B-4CE6-9E66-BB0F9C644D35}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Api", "DevOps.Api\DevOps.Api.csproj", "{39F28D5F-0D4E-482E-8F44-C02C61F886EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39F28D5F-0D4E-482E-8F44-C02C61F886EE} = {2C3ABDF3-8680-4F44-9109-AA27E0C172D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B082604-EF26-4811-92FC-FCB1E4F66DAD}
+	EndGlobalSection
+EndGlobal
