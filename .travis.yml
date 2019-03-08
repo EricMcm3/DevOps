@@ -12,7 +12,7 @@ script:
  - dotnet restore
  - dotnet build
  - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
- - docker build -f ./DevOps.Api/Dockerfile 
+ - docker build -f ./DevOps.Api/Dockerfile -t devopsapi:dev ./DevOps.Api  --no-cache
  - docker tag devopsapi:dev $DOCKER_USERNAME/devops:dev
  - docker push $DOCKER_USERNAME/devops:dev
 
