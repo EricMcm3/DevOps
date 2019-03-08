@@ -8,10 +8,9 @@ branches:
   only:
     - master
     - develop
-before_script:
-  - chmod -R a+x scripts
 script:
- - ./dotnet-build.sh
+ - dotnet restore
+ - dotnet build
 notifications:
   email:
     on_success: never
