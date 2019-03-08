@@ -18,7 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.travis.yml = .travis.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Api", "DevOps.Api\DevOps.Api.csproj", "{39F28D5F-0D4E-482E-8F44-C02C61F886EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Api", "DevOps.Api\DevOps.Api.csproj", "{39F28D5F-0D4E-482E-8F44-C02C61F886EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{38263731-C158-4C56-B467-8AF4619EAA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.xUnitTests", "DevOps.xUnitTests\DevOps.xUnitTests.csproj", "{CA5654C9-3D15-4200-B957-10EAD8496337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,12 +34,17 @@ Global
 		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39F28D5F-0D4E-482E-8F44-C02C61F886EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5654C9-3D15-4200-B957-10EAD8496337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5654C9-3D15-4200-B957-10EAD8496337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5654C9-3D15-4200-B957-10EAD8496337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5654C9-3D15-4200-B957-10EAD8496337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39F28D5F-0D4E-482E-8F44-C02C61F886EE} = {2C3ABDF3-8680-4F44-9109-AA27E0C172D5}
+		{CA5654C9-3D15-4200-B957-10EAD8496337} = {38263731-C158-4C56-B467-8AF4619EAA67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B082604-EF26-4811-92FC-FCB1E4F66DAD}
