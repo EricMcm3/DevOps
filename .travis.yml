@@ -9,8 +9,8 @@ branches:
     - master
     - develop
 script:
- - dotnet restore
- - dotnet build
+ - dotnet restore DevOps.Api.csproj
+ - dotnet build DevOps.Api.csproj
  - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
  - docker build -f ./DevOps.Api/Dockerfile -t devopsapi:dev .  --no-cache
  - docker tag devopsapi:dev $DOCKER_USERNAME/devops:dev
