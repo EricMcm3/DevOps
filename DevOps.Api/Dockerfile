@@ -1,7 +1,6 @@
 FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 WORKDIR /app
-EXPOSE 5036
-ENV ASPNETCORE_URLS=http://+:5036
+
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src

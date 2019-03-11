@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  devops.api:
+    image: coderic/devopsapi
+    ports:
+      - '5036:5036'
+    networks:
+      - dshop
+    environment:
+      - 'CONSUL_ENABLED=false'
+      - 'VAULT_ENABLED=false'
+      - 'ASPNETCORE_URLS=http://+:5036'
+    build:
+      context: .
+      dockerfile: DevOps.Api/Dockerfile
+networks:
+  dshop:
+    external:
+      name: dshop-network
